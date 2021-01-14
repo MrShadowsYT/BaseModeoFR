@@ -1,0 +1,15 @@
+function AddTextEntry(key, value)
+	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), key, value)
+end
+
+Citizen.CreateThread(function()
+  AddTextEntry('FE_THDR_GTAO', 'Bienvenue sur la ModeoBaseFR | ~w~Votre ~g~ID ~w~est le ~g~~h~' ..GetPlayerServerId(PlayerId()).. '~h~       ~f~Discord ~c~= ~o~FfQGY2hU')
+  AddTextEntry('PM_PANE_LEAVE', '~o~Quitter la ville')
+  AddTextEntry('PM_PANE_QUIT', '~r~Retourner sur le Continent')
+  AddTextEntry('PM_SCR_MAP', '~w~Carte de la ModeoBaseFR')
+  AddTextEntry('PM_SCR_GAM', '~r~PRENDRE L\'AVION')
+  AddTextEntry('PM_SCR_INF', '~g~INFOS')
+  AddTextEntry('PM_SCR_SET', '~p~PARAMÈTRE')
+  AddTextEntry('PM_SCR_STA', '~f~STATISTIQUES')
+  AddTextEntry('PM_SCR_RPL', '~y~Éditeur ∑')
+end)

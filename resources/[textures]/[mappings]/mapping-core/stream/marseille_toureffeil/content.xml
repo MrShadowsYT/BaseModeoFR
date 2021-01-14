@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+  <disabledFiles />
+  <includedXmlFiles />
+  <includedDataFiles />
+  <dataFiles>
+    <Item>
+      <filename>dlc_frenchlandmarks:/%PLATFORM%/levels/gta5/frenchlandmarks/frenchlandmarks_metadata.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="false" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_frenchlandmarks:/%PLATFORM%/levels/gta5/frenchlandmarks/frenchlandmarks.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="false" />
+      <persistent value="false" />
+    </Item>
+  </dataFiles>
+  <contentChangeSets>
+	<Item>
+	  <changeSetName>CCS_FRENCHLANDMARKS_NG_STREAMING_MAP</changeSetName>
+		<filesToEnable />
+	  <executionConditions>
+				<activeChangesetConditions>
+				</activeChangesetConditions>
+				<genericConditions>$level=MO_JIM_L11</genericConditions>
+			</executionConditions>
+		</Item>
+  </contentChangeSets>
+  <patchFiles />
+</CDataFileMgr__ContentsOfDataFileXml>
